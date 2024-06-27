@@ -1,0 +1,44 @@
+{
+	"@context": "http://schema.org",
+	"@type": "SocialMediaPosting",
+	"@id": "https://9gag.com/gag/a34LK8N",
+	"mainEntityOfPage": "https://9gag.com/gag/a34LK8N",
+	"headline": "JURATHICC WORLD ! - 9GAG",
+	"keywords": "god dayum, extra thicc, licks screen, yummy, milf, Bryce Dallas Howard, Jurassic World, Claire Dearing, Dinosaur",
+	"datePublished": "2024-06-17T17:50:44+00:00",
+	"image": "https://images-cdn.9gag.com/photo/a34LK8N_700b.jpg",
+	"publisher": {
+		"@type": "Organization",
+		"name": "9GAG",
+		"logo": {
+			"@type": "ImageObject",
+			"url": "https://images-cdn.9gag.com/img/9gag.png"
+		}
+	},
+	"interactionStatistic": [
+		{
+			"@type": "InteractionCounter",
+			"interactionType": "https://schema.org/LikeAction",
+			"userInteractionCount": 6550
+		},
+		{
+			"@type": "InteractionCounter",
+			"interactionType": "https://schema.org/DislikeAction",
+			"userInteractionCount": 443
+		},
+		{
+			"@type": "InteractionCounter",
+			"interactionType": "https://schema.org/CommentAction",
+			"userInteractionCount": 412
+		}
+	],
+	"author": {
+		"@type": "Person",
+		"name": "Hello_Im_Satan",
+		"url": "https://9gag.com/u/666_satan_999",
+		"image": {
+			"@type": "ImageObject",
+			"url": "https://accounts-cdn.9gag.com/media/avatar/726057_800_4.jpg"
+		}
+	}
+}
