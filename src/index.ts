@@ -18,8 +18,11 @@ export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		console.log('Request URL:', request.url);
 		const url = new URL(request.url);
-		if (!url.pathname.startsWith('/gag/')) {
-			return new Response('Invalid URL', { status: 404 });
+
+		if (url.pathname === '/') {
+			return Response.redirect('https://github.com/kxalex/fx9gag', 301);
+		} else if (!url.pathname.startsWith('/gag/')) {
+			return Response.redirect('https://9gag.com/' + url.pathname, 301);
 		}
 
 		const url9gag = replaceUrl(url);
@@ -31,5 +34,5 @@ export default {
 		}
 
 		return Response.redirect(url9gag.toString(), 301);
-	},
+	}
 } satisfies ExportedHandler<Env>;
